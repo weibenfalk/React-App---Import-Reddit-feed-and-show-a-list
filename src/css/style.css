@@ -1,0 +1,247 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background: fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+h2 {
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+button,
+input[type=submit] {
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid #000;
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-family: 'Open Sans';
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+button:hover,
+input[type=submit]:hover {
+  color: #fff;
+  background: #000;
+  outline: 0;
+}
+
+button:focus,
+input[type=submit]:focus {
+  outline: 0;
+}
+
+.feed-item {
+  border-bottom: 2px solid #000;
+  border-top: 1px solid #000;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 5px;
+  clear: both;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.feed-item img {
+  float: left;
+  min-width:150px;
+  width: 15%;
+  height: auto;
+  margin-right: 2rem;
+  clear:both;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.infolist {
+  list-style: none;
+  margin:0 0 10px 0;
+  padding:3px 5px 5px 10px;
+  border: 1px solid black;
+}
+
+.infolist li {
+  display: inline;
+  padding: 0 20px 0 20px;
+  font-size:16px;
+  border-right: 1px solid grey;
+  font-weight: bold;
+}
+
+.infolist li:first-child {
+  padding-left: 0;
+}
+
+.infolist li:last-child {
+  border-right: none;
+}
+
+.li-permalink a {
+  text-decoration: none;
+  color: green;
+}
+
+.feed-item-content-wrappper {
+  background:white;
+  float:right;
+  width:82%;
+  display:block;
+  overflow:hidden;
+}
+
+.wrapper {
+  background:white;
+  width:80%;
+  max-width:1200px;
+  min-width:950px;
+  margin: 0 auto;
+  display:block;
+}
+
+.comment > div {
+  padding:0 0 0 20px;
+  /* margin:0 0 0 20px; */
+  border-left: 1px dotted grey;
+}
+
+.comment, .postsperpage {
+  padding:0 20px 0 20px;
+  font-size:16px;
+}
+
+.comments-button {
+  margin:20px 0 20px 0;
+}
+
+.author {
+  font-size:14px;
+  margin:0 0 -15px 0;
+  padding:0;
+  font-weight:bold;
+}
+
+.fetching-comments {
+  font-size:14px;
+  margin:0 0 0 20px;
+  padding:0;
+  font-weight:bold;
+}
+
+.button-before {
+  float:left;
+  margin: 20px 0 0 0;
+}
+
+.button-after {
+  float:right;
+  margin: 20px 0 20px 0;
+}
+
+.feed-title {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+}
+
+.feed-title:hover{
+  opacity:0.5;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+}
+
+.feed-item-text {
+  padding: 20px 0 0 0;
+  font-size:18px;
+  line-height: 28px;
+}
+
+.limitbuttons {
+  flex: 1;
+  right: 0;
+  display: inline-block;
+  text-align: right;
+  margin: 20px 0 20px 0;
+  vertical-align:bottom;
+  align-self: flex-end;
+}
+
+.has-text:after {
+  content: "▼";
+  font-size: 16px;
+  margin-left:10px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height:100%;
+}
+
+.selectform-wrapper {
+  flex: 1;
+  float:left;
+}
+
+.selectform {
+  position: relative;
+  left: 0;
+  margin: 20px 0 20px 0;
+}
+
+.selectform button, .selectform input {
+  height: 40px;
+  margin: 0;
+  top: 0;
+}
+
+.selectform input {
+  font-size: 16px;
+  margin:0 20px 0 0;
+  padding-left: 10px;
+  height: 35px;
+  border: 1px solid #000;
+}
+
+.selectform h1 {
+  font-size: 16px;
+  margin: 10px 0 10px 0;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
